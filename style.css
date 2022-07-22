@@ -1,0 +1,57 @@
+
+.mainbox
+     {
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    text-align: center;
+    font-size:50px;
+    width: 76vw ;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    margin-top: 12vh;
+    color:#500202;
+    text-shadow: 1px 1px 4px grey;
+    border-radius: 10px;
+    
+    }
+
+        .heading
+            {
+                box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+                font-size: 40px;
+                color:white;
+                background-color: midnightblue;
+                width: 100%;
+                text-align: center;
+            }
+
+        button
+            {
+                margin-top: 10px;
+                display: inline-block;
+                border: none;
+                box-shadow: none;
+                cursor: pointer;
+                padding: 9px 22px;
+                font-size: 22px;
+                height: 50px;
+                font-weight: 400;
+                color: #fff;
+                background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+                border-radius: 50px;
+                transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+                
+                
+            }
+
+
+
+
+            input[type=radio] {
+                    border: 0px;
+                     width: 4%;
+                     height: 2em;
+}
